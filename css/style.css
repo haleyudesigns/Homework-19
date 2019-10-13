@@ -1,3 +1,9 @@
 .newLogo {
     align-items: center;
 }
+body {
+    font-family: 'Open Sans', sans-serif; 
+}
+.btn-space {
+    margin: 5px !important;
+}
