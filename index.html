@@ -25,9 +25,11 @@
         <a class="nav-link text-dark" href="#about">about</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" href="mailto:haleyalexandriallc@gmail.com">contact</a>
+        <a class="nav-link text-dark" data-toggle="modal" data-target=".bs-example-modal-sm">contact</a>
       </li>
-    </ul>
+   
+
+
     <!----JUMBOTRON--->
     <img class="img-fluid" src="images/header 1.png">
 
@@ -104,7 +106,25 @@
             <h5 class="text-light text-center">-Jef Raskin</h5>
         </div>
     </div>
-    
+    <!--MODAL-->
+    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-sm" role="document">
+        
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            <p>One fine body&hellip;</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
